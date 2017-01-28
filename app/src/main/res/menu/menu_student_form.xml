@@ -5,7 +5,6 @@
         android:id="@+id/student_form_confirm"
         android:title="Ok"
         android:icon="@drawable/ic_action_accept"
-        app:showAsAction="always"
-        />
+        app:showAsAction="always" />
 
 </menu>

@@ -35,7 +35,6 @@ public class Student implements Serializable{
         this.grading = grading;
     }
 
-
     public String getName() {
         return name;
         
@@ -52,7 +51,6 @@ public class Student implements Serializable{
 
     public ContentValues toContentValues() {
         ContentValues data = new ContentValues();
-
         data.put("name", name);
         data.put("address", address);
         data.put("phoneNumber", phoneNumber);
@@ -81,6 +79,5 @@ public class Student implements Serializable{
     public String getEmail() {
         return email;
     }
-
 }
 

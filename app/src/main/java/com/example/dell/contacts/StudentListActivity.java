@@ -34,9 +34,7 @@ public class StudentListActivity extends AppCompatActivity {
             }
         });
 
-
         registerForContextMenu(getStudentsList());
-
 
         Button newStudent = (Button) findViewById(R.id.student_list_new_student);
         newStudent.setOnClickListener(new View.OnClickListener() {
@@ -55,7 +53,6 @@ public class StudentListActivity extends AppCompatActivity {
 
     }
 
-
     @Override
     protected void onResume() {
         super.onResume();
@@ -67,7 +64,6 @@ public class StudentListActivity extends AppCompatActivity {
         StudentDAO dao = new StudentDAO(this);
         List<Student> students = dao.listALL();
         dao.close();
-
 
         ArrayAdapter<Student> adapter = new ArrayAdapter<Student>(this, android.R.layout.simple_list_item_1, students);
         getStudentsList().setAdapter(adapter);
@@ -82,7 +78,6 @@ public class StudentListActivity extends AppCompatActivity {
 
             showContextMenuForStudent(menu, student);
         }
-
     }
 
     private void showContextMenuForStudent(ContextMenu menu, final Student student) {
@@ -99,5 +94,4 @@ public class StudentListActivity extends AppCompatActivity {
             }
         });
     }
-
 }

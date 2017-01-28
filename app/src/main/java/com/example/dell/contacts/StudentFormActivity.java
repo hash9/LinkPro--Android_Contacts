@@ -25,8 +25,6 @@ public class StudentFormActivity extends AppCompatActivity {
         }
     }
 
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_student_form, menu);

@@ -23,7 +23,6 @@ public class StudentFormViewHelper {
         return value;
     }
 
-
     private String getAddress() {
         return getTestFieldValue(R.id.student_form_address);
     }

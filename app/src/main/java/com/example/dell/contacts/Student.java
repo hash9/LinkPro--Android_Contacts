@@ -1,6 +1,4 @@
 package com.example.dell.contacts;
-
-
 import android.content.ContentValues;
 
 import java.io.Serializable;
@@ -16,7 +14,6 @@ public class Student implements Serializable{
     private final double grading;
 
     public Student(String name, String address, String phoneNumber, String website, String email, double grading) {
-
         this.name = name;
         this.address = address;
         this.phoneNumber = phoneNumber;

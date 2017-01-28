@@ -54,8 +54,6 @@ public class StudentDAO extends SQLiteOpenHelper {
             Student student = new Student(id, name, address, phoneNumber, website, email, grading);
             students.add(student);
         }
-
-
         return students;
     }
 

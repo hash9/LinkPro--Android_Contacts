@@ -13,7 +13,7 @@
 - Email
 - Rating
 
-## Functions
+## App Functions
 - Create a new Link
 - Edit a Link
 - Remove a Link

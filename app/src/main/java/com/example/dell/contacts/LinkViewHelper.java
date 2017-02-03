@@ -48,7 +48,6 @@ public class LinkViewHelper {
         return rating.getRating();
     }
 
-
     public void fillInTheForm(Link link) {
         fill(R.id.student_form_name, link.getName());
         fill(R.id.student_form_address, link.getAddress());
